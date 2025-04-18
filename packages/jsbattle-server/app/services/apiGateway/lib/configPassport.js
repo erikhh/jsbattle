@@ -80,7 +80,7 @@ function configPassport(app, logger, broker, serviceConfig) {
     app.get(`/auth/${provider.name}`, passport.authenticate(provider.name, { scope: 'email' }));
     app.get(
       `/auth/${provider.name}/callback`,
-      passport.authenticate(provider.name, { failureRedirect: '/admin' }),
+      passport.authenticate(provider.name, { failureRedirect: '/admin' , session: false}),
       async (req, res) => {
         logger.debug('Login using ' + provider.name + " integration");
         let user = await broker.call('userStore.findOrCreate', {user: req.user});

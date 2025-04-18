@@ -1,0 +1,44 @@
+# .dockerignore
+Dockerfile
+docker-compose.yml
+
+# Node modules
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Dependency directories
+bower_components
+
+# CI
+.circleci
+
+# Logs
+logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist
+build
+coverage
+
+# Environment files
+.env
+.env.*
+
+# Editor directories and files
+.vscode
+.idea
+*.swp
+
+# Test output
+*.lcov
+
+# Misc
+*.tgz
+*.gz
+*.zip

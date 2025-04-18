@@ -1,1 +1,1 @@
-require('puppeteer/install.js');
+import('puppeteer/install.mjs');

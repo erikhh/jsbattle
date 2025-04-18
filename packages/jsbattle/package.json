@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/js/jsbattle.min.js",
   "scripts": {
-    "start": "./dist/jsbattle.js start ...",
+    "start": "node ./dist/jsbattle.js start ...",
     "clean": "rimraf dist && rimraf test/features*",
     "build": "npm run build:server && npm run build:webpage && npm run build:admin",
     "build:admin": "cpx './node_modules/jsbattle-admin/dist/**/*' ./dist/public",
@@ -27,7 +27,7 @@
   "author": "Krzysztof Jamroz <jamro@jamro.net>",
   "license": "MIT",
   "bin": {
-    "jsbattle": "./dist/jsbattle.js"
+    "jsbattle": "node ./dist/jsbattle.js"
   },
   "babel": {
     "presets": [
@@ -42,17 +42,23 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
+    "axios": "1.8.4",
     "jsbattle-admin": "^3.7.0",
     "jsbattle-docs": "^3.7.1",
     "jsbattle-engine": "^3.7.0",
     "jsbattle-mockserver": "^3.6.0",
     "jsbattle-server": "^3.7.1",
     "jsbattle-webpage": "^3.7.1",
+    "jsonwebtoken": "9.0.2",
     "lodash": "^4.17.21",
+    "mocha": "11.1.0",
+    "passport": "0.7.0",
+    "passport-twitter": "1.0.4",
     "path": "^0.12.7",
-    "puppeteer": "^10.4.0",
+    "puppeteer": "^24.6.1",
+    "react-scripts": "^5.0.1",
     "swagger-jsdoc": "^6.1.0",
-    "yargs": "^17.2.1"
+    "yargs": "^17.7.2"
   },
   "gitHead": "b086d7f5befb0506cc4f1ef9a6450cf2591b9b7d"
 }

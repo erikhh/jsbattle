@@ -121,7 +121,7 @@ export class Navi extends React.Component {
   render() {
     return <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="http://jsbattle.jmrlab.com" style={{borderRight: '1px solid #888', paddingRight: '15px'}}>
+        <a className="navbar-brand" href="/index.html" style={{borderRight: '1px solid #888', paddingRight: '15px'}}>
           <img src="./img/logo.png" alt="JsBattle" />
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">

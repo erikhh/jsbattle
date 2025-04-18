@@ -78,7 +78,7 @@
     "http-server": "^14.1.0",
     "jsdoc-to-markdown": "^7.0.1",
     "jshint": "^2.13.1",
-    "mocha": "^9.1.2",
+    "mocha": "^11.1.0",
     "npm-run-all": "^4.1.5",
     "npm-watch": "^0.11.0",
     "rimraf": "^3.0.2",
@@ -88,8 +88,14 @@
   },
   "dependencies": {
     "ajv": "^8.6.3",
+    "axios": "1.8.4",
     "babel-polyfill": "^6.26.0",
+    "jsonwebtoken": "9.0.2",
+    "passport": "0.7.0",
+    "passport-twitter": "1.0.4",
     "pixi.js": "^6.1.3",
+    "puppeteer": "24.6.1",
+    "react-scripts": "^5.0.1",
     "sat": "^0.9.0",
     "seedrandom": "^3.0.5"
   },
