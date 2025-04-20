@@ -1,7 +1,7 @@
 {
   "definitions": {},
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://jsbattle.jmrlab.com/schema/ubd-schema-v1.json",
+  "$id": "http://jsbattle.highmoor.org/schema/ubd-schema-v1.json",
   "type": "object",
   "title": "The Ultimate Battle Descriptor Schema",
   "required": [

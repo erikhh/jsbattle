@@ -1,7 +1,7 @@
 {
   "name": "root",
   "workspaces": [
-    "packages/*"
+    "packages/jsbattle*"
   ],
   "private": true,
   "version": "3.6.1",

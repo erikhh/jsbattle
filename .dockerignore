@@ -1,6 +1,7 @@
 # .dockerignore
 Dockerfile
 docker-compose.yml
+jsbattle.config.json
 
 # Node modules
 node_modules

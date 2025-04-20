@@ -44,4 +44,4 @@ RUN npm run build \
 
 EXPOSE 8080
 USER appuser
-ENTRYPOINT [ "node", "dist/jsbattle.js", "start", "--config", "./jsbattle.config.json" ]
+ENTRYPOINT [ "node", "dist/jsbattle.js", "start", "--config", "/app/data/jsbattle.config.json" ]

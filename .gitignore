@@ -87,4 +87,4 @@ dist
 
 .jsbattle.config.json
 jsbattle.config.json
-docker-compose.yaml
+docker-compose.yml
